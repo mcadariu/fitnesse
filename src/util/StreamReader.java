@@ -33,6 +33,7 @@ public class StreamReader implements Closeable {
   private byte[] matchedBoundaryBytes;
 
   private long bytesConsumed;
+  private long bytesConsumed;
 
   public StreamReader(InputStream input) {
     this.input = input;
